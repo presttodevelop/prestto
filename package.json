@@ -1,0 +1,70 @@
+{
+  "name": "prestify",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@react-google-maps/api": "^1.10.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "clabe-validator": "^1.3.8",
+    "cors": "^2.8.5",
+    "credit-card-reveal": "^0.1.4",
+    "google-map-react": "^2.1.7",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.5.1",
+    "jspdf-html2canvas": "^1.4.9",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "pdf-poppler": "^0.2.1",
+    "print-js": "^1.6.0",
+    "promise": "^8.1.0",
+    "react": "^16.13.1",
+    "react-barcode": "^1.4.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-google-maps": "^9.4.5",
+    "react-hooks-barcode": "^1.0.4",
+    "react-images-upload": "^1.2.8",
+    "react-meta-tags": "^1.0.1",
+    "react-multi-carousel": "^2.6.1",
+    "react-number-format": "^4.4.4",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
+    "react-signature-canvas": "^1.0.3",
+    "react-to-pdf": "^0.0.13",
+    "react-to-print": "^2.12.3",
+    "reactjs-popup": "^2.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "sms-service": "^1.1.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

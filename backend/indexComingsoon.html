@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<style>
+@import "https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:700";
+
+$primary-font : "Roboto slab", sans-serif;
+$secondary-font : "Raleway", sans-serif;
+
+@mixin transform($value){
+	-webkit-transform: $value;
+		 -moz-transform: $value;
+			-ms-transform: $value;
+	     -o-transform: $value;
+					transform: $value;
+}
+body{
+	background: #222;
+}
+.row{
+	position: relative;
+	min-height:calc(100vh - 100px)
+}
+.content-block{
+	position: absolute;
+	width:100%;
+	top:50%;
+	@include transform(translateY(-50%));
+  color:white;
+	
+	h1{
+		text-align: center;
+		font-weight: bold;
+		font-family: $primary-font;
+	}
+	p{
+		text-align: center;
+		font-family: $secondary-font;
+	}
+	.menu a{
+		color:white;
+		cursor: context-menu !important;
+		font-family: $secondary-font;
+		i{
+			font-size: 3rem;
+			color: green;
+		}
+	}
+	.input-group{
+		margin:auto;
+		max-width:500px;
+		legend, input{
+			font-family: $secondary-font;
+		}
+		input[type="email"]{
+			background-color: rgba(255,255,255,0.3);
+			border:none;
+		}
+		input[type="submit"]{
+			background-color:green;
+		}
+	}
+}
+</style>
+
+<div class="top-bar">
+	<img id="Logo" class="float-center" src="https://placeimg.com/100/100/arch" alt="" />
+</div>
+<div class="content">
+	<div class="row">
+		<div class="content-block">
+			<h1>Proximamente</h1>
+			<p>Tu sitio de recursos de arquitectura en un solo lugar</p>
+			<div class="menu-centered">
+				<ul class="menu icon-top">
+					<li><a href=""><i class="ion-ios-telephone"></i>000 00000</a></li>
+					<li><a href=""><i class="ion-social-skype"></i>Skypeuser</a></li>
+					<li><a href=""><i class="ion-email"></i>email@provider.com</a></li>
+				</ul>
+			</div>
+			<form action="#" method="post">
+				<p>¿Quieres enterarte cuando esté online? deja tu correo acá y te enterarás de inmediato</p>
+				<div class="input-group">
+						<input class="input-group-field" type="email" name="email" placeholder="Tu dirección de e-mail"/>
+					<div class="input-group-button">
+						<input type="submit" class="button"/>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

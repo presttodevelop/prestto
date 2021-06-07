@@ -1,0 +1,41 @@
+CREATE TABLE informacion (
+    id int NOT NULL AUTO_INCREMENT,
+    nombre varchar(255) NOT NULL,
+    apellidopaterno varchar(255) NOT NULL,
+    apellidomaterno varchar(255) NOT NULL,
+    diadenacimiento INT,
+    mesdenacimiento varchar(255),
+    anodenacimiento INT,
+    edad varchar(255),
+    estadodenacimiento varchar(255),
+    curp varchar(255),
+    celular varchar(20),
+    otrotelefono varchar(20),
+    callet varchar(255),
+    numeroexterior INT,
+    cp varchar(255),
+    estado varchar(255),
+    municipio varchar(255),
+    colonia varchar(255),
+    salario varchar(255),
+    industria varchar(255),
+    paganporbanco varchar(255),
+    salariofamiliar varchar(255),
+    tienestarjeta varchar(255),
+    ultimosdigitostarjeta varchar(255),
+    creditoautomotriz varchar(255),
+    calificacionhistorial varchar(255),
+    aceptovalidarburo varchar(255),
+    usodelprestamos varchar(255),
+    email varchar(255),
+    contrasena varchar(255),
+    fecha TIMESTAMP,
+    timeform INT, 
+    sugerencia varchar(255),
+    aceptoaviso varchar(255),
+    PRIMARY KEY (id)
+);
+
+
+ALTER TABLE informacion ADD sugerencia varchar(255);
+ALTER TABLE informacion ADD edad varchar(255);
